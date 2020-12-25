@@ -71,7 +71,7 @@ class MembersCog(commands.Cog, name="Meta"):
     def _format_perm_name(self, name: str):
         name = name.title()
         replacements = (
-            ("_", " ",)
+            ("_", " "),
             ("Tts", "TTS")
         )
 
